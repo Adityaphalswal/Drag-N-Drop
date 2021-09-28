@@ -19,7 +19,7 @@ body {
 }
 
 .fill {
-    background-image: url('/image.png');
+    background-image: url('image.png');
     height: 150px;
     width: 150px;
     cursor: pointer;
