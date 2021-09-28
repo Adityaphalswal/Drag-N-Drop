@@ -10,7 +10,7 @@ body {
     background-color: cornflowerblue;
     flex-direction: row;
     align-content: center;
-    height: 100vh;
+    min-height: 800px;
 } 
 
 .container {
@@ -20,8 +20,8 @@ body {
 
 .fill {
     background-image: url('/image.png');
-    height: 145px;
-    width: 145px;
+    height: 150px;
+    width: 150px;
     cursor: pointer;
 }
 
@@ -30,7 +30,8 @@ body {
     width: 150px;
     background: white;
     margin: 10px;
-    border: 3px solid black;
+    border:  solid 3px black;
+    padding: 0;
 
 }
 
@@ -47,7 +48,7 @@ body {
 @media(max-width: 800px) {
     body {
         flex-direction: column;
-        height: fit-content;
+        min-height: 800px;
 } 
 .container {
     flex-direction: column;
@@ -57,7 +58,7 @@ body {
     width: 120px;
 }
 .fill {
-    height: 115px;
-    width: 115px;
+    height: 120px;
+    width: 120px;
 }
 }
